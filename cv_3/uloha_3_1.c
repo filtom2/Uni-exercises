@@ -31,8 +31,8 @@ int main(void)
         }
     }
 
-    printf("Maximum: %.2lf\n",max);
     printf("Minimum: %.2lf\n", min);
+    printf("Maximum: %.2lf\n",max);
 
     return 0;
 }

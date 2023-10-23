@@ -3,25 +3,20 @@
 
 int main(void)
 {
-    
     int n;
-    scanf("%d", &n);
+    scanf("%d\n", &n);
 
-    int correct_numbers[n],numbers[n];
-    
 
-    for (int i = 0; i < n;i++)
+    int count = 0;
+    for (int i = 0;i < n;i++)
     {
-        scanf("%d", &numbers[i]);
-        if (numbers[i] > 0 && numbers[i] <= 100)
+        int cislo;
+        scanf("%d",&cislo);
+        if ( cislo > 0 && cislo <= 100)
         {
-            correct_numbers[i] = numbers[i];
-        }    
-    }   
-    
-    // TODO print size of an array
-    printf{}
-    
-    
+            count++;
+        }
+    }
+    printf("%i\n",count);
     return 0;
 }
